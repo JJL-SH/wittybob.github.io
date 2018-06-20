@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-15T08:56:20.019Z</updated>
+  <updated>2018-06-20T06:50:52.125Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,17 +21,14 @@
     <link href="http://yoursite.com/2018/06/15/Sublime-text3%E6%96%B0%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/"/>
     <id>http://yoursite.com/2018/06/15/Sublime-text3新建自定义代码片段/</id>
     <published>2018-06-15T08:47:44.000Z</published>
-    <updated>2018-06-15T08:56:20.019Z</updated>
+    <updated>2018-06-20T06:50:52.125Z</updated>
     
-    <content type="html"><![CDATA[<p>Tools-&gt;Developer-&gt;New Snippet…</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;snippet&gt;</span><br><span class="line">  &lt;content&gt;&lt;![CDATA[</span><br><span class="line">// 这里写需要输出的内容</span><br><span class="line">console.log($&#123;1:this&#125;);</span><br><span class="line">]]&gt;&lt;/content&gt;</span><br><span class="line">  &lt;!-- Optional: Set a tabTrigger to define how to trigger the snippet --&gt;</span><br><span class="line">  &lt;!-- &lt;tabTrigger&gt;这里输入你需要的快捷命令【例子：clg】&lt;/tabTrigger&gt; --&gt;</span><br><span class="line">  &lt;!-- Optional: Set a scope to limit where the snippet will trigger --&gt;</span><br><span class="line">  &lt;!-- &lt;scope&gt;source.python&lt;/scope&gt; --&gt;</span><br><span class="line">&lt;/snippet&gt;</span><br></pre></td></tr></table></figure><p>编辑完之后，保存到 /Packages/User 目录下面，直接按保存</p><p>注意：文件扩展名需要改成 .sublime-snippet ，否则 Sublime 无法识别这个文件是一个代码片段</p>]]></content>
+    <content type="html"><![CDATA[<p>Tools-&gt;Developer-&gt;New Snippet…</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;snippet&gt;</span><br><span class="line">  &lt;content&gt;&lt;![CDATA[</span><br><span class="line">// 这里写需要输出的内容</span><br><span class="line">console.log($&#123;1:this&#125;);</span><br><span class="line">]]&gt;&lt;/content&gt;</span><br><span class="line">  &lt;!-- Optional: Set a tabTrigger to define how to trigger the snippet --&gt;</span><br><span class="line">  &lt;!-- &lt;tabTrigger&gt;这里输入你需要的快捷命令【例子：clg】&lt;/tabTrigger&gt; --&gt;</span><br><span class="line">  &lt;!-- Optional: Set a scope to limit where the snippet will trigger --&gt;</span><br><span class="line">  &lt;!-- &lt;scope&gt;source.python&lt;/scope&gt; --&gt;</span><br><span class="line">&lt;/snippet&gt;</span><br></pre></td></tr></table></figure><a id="more"></a><p>编辑完之后，保存到 /Packages/User 目录下面，直接按保存</p><p>注意：文件扩展名需要改成 .sublime-snippet ，否则 Sublime 无法识别这个文件是一个代码片段</p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;Tools-&amp;gt;Developer-&amp;gt;New Snippet…&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;b
-      
+      &lt;p&gt;Tools-&amp;gt;Developer-&amp;gt;New Snippet…&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;snippet&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;lt;content&amp;gt;&amp;lt;![CDATA[&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// 这里写需要输出的内容&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;console.log($&amp;#123;1:this&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;]]&amp;gt;&amp;lt;/content&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;lt;!-- Optional: Set a tabTrigger to define how to trigger the snippet --&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;lt;!-- &amp;lt;tabTrigger&amp;gt;这里输入你需要的快捷命令【例子：clg】&amp;lt;/tabTrigger&amp;gt; --&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;lt;!-- Optional: Set a scope to limit where the snippet will trigger --&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;lt;!-- &amp;lt;scope&amp;gt;source.python&amp;lt;/scope&amp;gt; --&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;/snippet&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
@@ -45,17 +42,14 @@
     <link href="http://yoursite.com/2018/06/15/Sublime-text3%E6%BF%80%E6%B4%BB%E6%96%B9%E5%BC%8F/"/>
     <id>http://yoursite.com/2018/06/15/Sublime-text3激活方式/</id>
     <published>2018-06-15T08:28:34.000Z</published>
-    <updated>2018-06-15T08:53:53.270Z</updated>
+    <updated>2018-06-20T06:51:03.376Z</updated>
     
-    <content type="html"><![CDATA[<p>版本：3176，在 host 文件中添加</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">127.0.0.1       www.sublimetext.com</span><br><span class="line">127.0.0.1       license.sublimehq.com</span><br></pre></td></tr></table></figure><p>然后添加 license key</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">----- BEGIN LICENSE -----</span><br><span class="line">sgbteam</span><br><span class="line">Single User License</span><br><span class="line">EA7E-1153259</span><br><span class="line">8891CBB9 F1513E4F 1A3405C1 A865D53F</span><br><span class="line">115F202E 7B91AB2D 0D2A40ED 352B269B</span><br><span class="line">76E84F0B CD69BFC7 59F2DFEF E267328F</span><br><span class="line">215652A3 E88F9D8F 4C38E3BA 5B2DAAE4</span><br><span class="line">969624E7 DC9CD4D5 717FB40C 1B9738CF</span><br><span class="line">20B3C4F1 E917B5B3 87C38D9C ACCE7DD8</span><br><span class="line">5F7EF854 86B9743C FADC04AA FB0DA5C0</span><br><span class="line">F913BE58 42FEA319 F954EFDD AE881E0B</span><br><span class="line">------ END LICENSE ------</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>版本：3176，在 host 文件中添加</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">127.0.0.1       www.sublimetext.com</span><br><span class="line">127.0.0.1       license.sublimehq.com</span><br></pre></td></tr></table></figure><a id="more"></a><p>然后添加 license key</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">----- BEGIN LICENSE -----</span><br><span class="line">sgbteam</span><br><span class="line">Single User License</span><br><span class="line">EA7E-1153259</span><br><span class="line">8891CBB9 F1513E4F 1A3405C1 A865D53F</span><br><span class="line">115F202E 7B91AB2D 0D2A40ED 352B269B</span><br><span class="line">76E84F0B CD69BFC7 59F2DFEF E267328F</span><br><span class="line">215652A3 E88F9D8F 4C38E3BA 5B2DAAE4</span><br><span class="line">969624E7 DC9CD4D5 717FB40C 1B9738CF</span><br><span class="line">20B3C4F1 E917B5B3 87C38D9C ACCE7DD8</span><br><span class="line">5F7EF854 86B9743C FADC04AA FB0DA5C0</span><br><span class="line">F913BE58 42FEA319 F954EFDD AE881E0B</span><br><span class="line">------ END LICENSE ------</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;版本：3176，在 host 文件中添加&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;l
-      
+      &lt;p&gt;版本：3176，在 host 文件中添加&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;127.0.0.1       www.sublimetext.com&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;127.0.0.1       license.sublimehq.com&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     

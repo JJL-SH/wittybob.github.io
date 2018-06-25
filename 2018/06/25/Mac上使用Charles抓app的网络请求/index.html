@@ -1,0 +1,19 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> Mac上使用Charles抓app的网络请求 · 机智的鲍勃</title><meta name="description" content="Mac上使用Charles抓app的网络请求 - Bob Liu"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/head.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://yoursite.com/atom.xml" title="机智的鲍勃"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/head.png" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">首页</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">归档</a></li><li class="nav-list-item"><a href="/tags/" target="_self" class="nav-list-link">标签</a></li><li class="nav-list-item"><a href="https://github.com/WittyBob" target="_blank" class="nav-list-link">GITHUB</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">Mac上使用Charles抓app的网络请求</h1><div class="post-info">2018年6月25日</div><div class="post-content"><p>下载<a href="https://www.charlesproxy.com/" target="_blank" rel="noopener">Charles</a>。激活：Registered Name: <a href="https://zhile.io，License" target="_blank" rel="noopener">https://zhile.io，License</a> Key: 48891cf209c6d32bf4</p>
+<ul>
+<li>查看Mac电脑的ip地址，点击wifi图标-&gt;打开网络偏好设置-&gt;.状态下面<img src="/images/1529922479107.jpg" alt="WX20180625-182541@2x"><a id="more"></a></li>
+<li>在手机中打开 chls.pro/ssl 链接安装证书，安装完之后进入设置-&gt;通用-&gt;关于本机（拉到最后）-&gt;证书信任设置-&gt;允许刚才安装的证书</li>
+<li>打开手机wifi，打开代理设置，填写刚才查到的ip地址、和设置端口8888<img src="/images/WX20180625-183357@2x.png" alt="WX20180625-183357@2x"></li>
+<li>打开Charles设置代理端口，Proxy-&gt;Proxy Settings…-&gt;Proxies-&gt;HTTP Proxy里边设置为8888，这就是代理的端口，和手机上设置的代理端口一致-&gt;勾选Enable transparent HTTP proxying</li>
+<li>设置https的端口监听，打开Charles-&gt;Help-&gt;SSL Proxying-&gt;Install Charles Root Certificate【这里可能安装不成功，需要在这一步选择Save Charles Root Certificate，把证书下载下来，然后手动拖到钥匙串访问窗口，然后设置信任双击证书-&gt;点击信任-&gt;下拉选择始终信任】</li>
+<li>最后一步打开Charles-&gt;Proxy-&gt;SSL Proxying Settings-&gt;SSL Proxying-&gt;Add-&gt;Host:*Port:443</li>
+</ul>
+<p>好了可以用手机访问接口，Charles就能正常监听端口了</p>
+</div></article></div></main><footer><div class="paginator"><a href="/2018/06/15/Sublime-text3新建自定义代码片段/" class="next">NEXT</a></div><div id="disqus_thread"></div><script>var disqus_shortname = 'seansun';
+var disqus_identifier = '2018/06/25/Mac上使用Charles抓app的网络请求/';
+var disqus_title = 'Mac上使用Charles抓app的网络请求';
+var disqus_url = 'http://yoursite.com/2018/06/25/Mac上使用Charles抓app的网络请求/';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script><script id="dsq-count-scr" src="//seansun.disqus.com/count.js" async></script><div class="copyright"><p>© 2018 Bob Liu.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script></body></html>

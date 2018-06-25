@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-20T06:50:52.125Z</updated>
+  <updated>2018-06-25T10:49:52.854Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mac上使用Charles抓app的网络请求</title>
+    <link href="http://yoursite.com/2018/06/25/Mac%E4%B8%8A%E4%BD%BF%E7%94%A8Charles%E6%8A%93app%E7%9A%84%E7%BD%91%E7%BB%9C%E8%AF%B7%E6%B1%82/"/>
+    <id>http://yoursite.com/2018/06/25/Mac上使用Charles抓app的网络请求/</id>
+    <published>2018-06-25T10:05:25.000Z</published>
+    <updated>2018-06-25T10:49:52.854Z</updated>
+    
+    <content type="html"><![CDATA[<p>下载<a href="https://www.charlesproxy.com/" target="_blank" rel="noopener">Charles</a>。激活：Registered Name: <a href="https://zhile.io，License" target="_blank" rel="noopener">https://zhile.io，License</a> Key: 48891cf209c6d32bf4</p><ul><li>查看Mac电脑的ip地址，点击wifi图标-&gt;打开网络偏好设置-&gt;.状态下面<img src="/images/1529922479107.jpg" alt="WX20180625-182541@2x"><a id="more"></a></li><li>在手机中打开 chls.pro/ssl 链接安装证书，安装完之后进入设置-&gt;通用-&gt;关于本机（拉到最后）-&gt;证书信任设置-&gt;允许刚才安装的证书</li><li>打开手机wifi，打开代理设置，填写刚才查到的ip地址、和设置端口8888<img src="/images/WX20180625-183357@2x.png" alt="WX20180625-183357@2x"></li><li>打开Charles设置代理端口，Proxy-&gt;Proxy Settings…-&gt;Proxies-&gt;HTTP Proxy里边设置为8888，这就是代理的端口，和手机上设置的代理端口一致-&gt;勾选Enable transparent HTTP proxying</li><li>设置https的端口监听，打开Charles-&gt;Help-&gt;SSL Proxying-&gt;Install Charles Root Certificate【这里可能安装不成功，需要在这一步选择Save Charles Root Certificate，把证书下载下来，然后手动拖到钥匙串访问窗口，然后设置信任双击证书-&gt;点击信任-&gt;下拉选择始终信任】</li><li>最后一步打开Charles-&gt;Proxy-&gt;SSL Proxying Settings-&gt;SSL Proxying-&gt;Add-&gt;Host:*Port:443</li></ul><p>好了可以用手机访问接口，Charles就能正常监听端口了</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;下载&lt;a href=&quot;https://www.charlesproxy.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Charles&lt;/a&gt;。激活：Registered Name: &lt;a href=&quot;https://zhile.io，License&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://zhile.io，License&lt;/a&gt; Key: 48891cf209c6d32bf4&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;查看Mac电脑的ip地址，点击wifi图标-&amp;gt;打开网络偏好设置-&amp;gt;.状态下面&lt;img src=&quot;/images/1529922479107.jpg&quot; alt=&quot;WX20180625-182541@2x&quot;&gt;
+    
+    </summary>
+    
+    
+      <category term="Mac" scheme="http://yoursite.com/tags/Mac/"/>
+    
+      <category term="Iphone" scheme="http://yoursite.com/tags/Iphone/"/>
+    
+  </entry>
   
   <entry>
     <title>Sublime-text3新建自定义代码片段</title>
